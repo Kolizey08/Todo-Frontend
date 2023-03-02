@@ -1,0 +1,40 @@
+.form{
+    display: flex;
+    width: 390px;
+    margin: auto;
+    margin-bottom: 36px;
+}
+.inp {
+    width: 300px;
+    height: 25px;
+    font-size: 16px;
+}
+.btn {
+    color: white;
+    background: blue;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn2 {
+    border: 2px solid;
+    background: white;
+    color: red;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+.divText {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+input:checked + span {
+    text-decoration: line-through;
+}
+
+.inp2 {
+    margin-right: 1%;
+}
